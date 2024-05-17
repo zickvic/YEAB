@@ -1,0 +1,48 @@
+Package: YEAB
+Title: Package to Analyze Data from Analysis of Behavior Experiments
+Version: 0.1.5
+Authors@R: c(
+    person("Emmanuel", "Alcala", , "jealcala@gmail.com", role = c("aut", "cre")),
+    person("Rodrigo", "Sosa", , "rsosas@up.edu.mx", role = "aut"),
+	person("Victor", "Reyes", , "zickvic@gmail.com", role = "aut")
+  )
+Description: This is a colletion of functions aimed to analyze data from
+    behavioral experiments from MED output and others. It also have
+    functions to fit exponential or hyperbolic models from delay
+    discounting tasks, exponential mixtures to IRTs, Gaussian plus ramp
+    model for peak procedures data, etc.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cluster,
+    doParallel,
+	rethinking,
+	data.table,
+    dplyr,
+    foreach,
+    ggplot2,
+	np,
+	boot,
+    grid,
+    gridExtra,
+    infotheo,
+    ks,
+    magrittr,
+    minpack.lm,
+    Polychrome,
+    rmi,
+    scales,
+    sfsmisc,
+    VGAM,
+	MASS,	
+	KernSmooth,
+    zoo
+Depends: R (>= 2.10)
+License: CC-BY-4.0 + file LICENSE
+Author: Emmanuel Alcala [aut, cre], Rodrigo Sosa [aut], Victor Reyes [aut]
+Maintainer: Emmanuel Alcala <jealcala@gmail.com>
+Date: 2023-09-27
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
